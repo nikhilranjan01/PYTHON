@@ -129,7 +129,7 @@ def game_over():
 
 # Giving title to the gaming window
 window = Tk()
-window.title("Snake Game By 💛Prince kumar ➡️ Meraj ➡️ Nikhil Ranjan ")
+window.title("Snake Game By ➡️ Nikhil Ranjan ")
 
 score = 0
 direction = 'down'
