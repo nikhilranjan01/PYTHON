@@ -30,6 +30,5 @@ plt.ylabel('Principal Component 2')
 plt.title('PCA of Iris Dataset')
 plt.colorbar()
 plt.show()
-
 # Check explained variance
 print(pca.explained_variance_ratio_)
