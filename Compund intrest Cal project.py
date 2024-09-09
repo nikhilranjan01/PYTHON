@@ -43,4 +43,4 @@ n_field.grid(row=4, column=1, padx=10, pady=10)
 
 button1 = Button(root, text="Submit", bg="red", command=ci_calculator)
 button1.grid(row=6, column=1, pady=10)
-root.mainloop
+root.mainloop()
