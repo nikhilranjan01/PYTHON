@@ -12,7 +12,7 @@ data = load_wine()
 X, y = data.data, data.target
 y_bin = label_binarize(y, classes=[0, 1, 2])
 X_train, X_test, y_train, y_test, y_bin_train, y_bin_test = train_test_split(X, y, y_bin, test_size=0.3, random_state=42)
-strategies = ['constant', 'uniform', 'stratified', 'prior', 'most_frequent']
+strategies = ['constant', 'uniform', 'stratified', 'prior', 'most_frequent'
 accuracy_dict = {}
 roc_auc_dict = {}
 classifiers = {}
