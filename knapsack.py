@@ -32,7 +32,7 @@ def knapsack_greedy(profits, weights, capacity):
 
 # Given profits and weights
 profits = [6, 10, 18, 15, 3, 5, 7]
-weights = [1, 2, 4, 5, 1, 3, 7]
+weights = [1, 6, 4, 5, 1, 3, 7]
 capacity = 15
 
 # Solve the Knapsack problem using the greedy approach
